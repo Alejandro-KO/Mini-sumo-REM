@@ -1,0 +1,39 @@
+LABCENTER PROTEUS TOOL INFORMATION FILE
+=======================================
+
+In case of difficulty, please e-mail support@labcenter.co.uk
+
+Tool set up for Proteus layout 'REM.pdsprj'.
+CADCAM generated at 11:55:20 p. m. on sábado, 5 de junio de 2021.
+
+File List
+---------
+Bottom Copper           : REM - CADCAM Bottom Copper.TXT
+Drill                   : REM - CADCAM Drill.TXT
+
+Photoplotter Setup
+------------------
+Format: RS274X, ASCII, 2.4, imperial, absolute, eob=*, LZO
+Notes:  D=Diameter, S=Side, W=Width, H=Height, C=Chamfer
+
+D10	CIRCLE  D=1.52mm                                                          DRAW
+D11	CIRCLE  D=1.27mm                                                          DRAW
+D12	SQUARE  S=2.03mm                                                          FLASH
+D13	SQUARE  S=1.9mm                                                           FLASH
+D14	SQUARE  S=3.81mm                                                          FLASH
+D15	SQUARE  S=1.78mm                                                          FLASH
+D16	SQUARE  S=1.52mm                                                          FLASH
+D17	CIRCLE  D=0.2mm                                                           DRAW
+
+NC Drill Setup
+--------------
+Format: ASCII, 2.4, imperial, absolute, eob=<CR><LF>, no zero suppression.
+Notes:  Tool sizes are diameters. Layer sets are in brackets - 0=TOP, 15=BOTTOM, 1-14=INNER.
+
+T01	1.02mm (0-15) Plated
+T02	1.65mm (0-15) Plated
+T03	0.76mm (0-15) Plated
+T04	0.64mm (0-15) Plated
+
+
+[END OF FILE]
